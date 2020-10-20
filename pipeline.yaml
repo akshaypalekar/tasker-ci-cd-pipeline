@@ -159,7 +159,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: tasker-ci-cd-pipeline-Beta
                         ChangeSetName: tasker-ci-cd-pipeline-ChangeSet-Beta
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packaged.yml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
@@ -191,7 +191,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: tasker-ci-cd-pipeline-Gamma
                         ChangeSetName: tasker-ci-cd-pipeline-ChangeSet-Gamma
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packaged.yml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
@@ -230,7 +230,7 @@ Resources:
                         RoleArn: !GetAtt CloudFormationExecutionRole.Arn
                         StackName: tasker-ci-cd-pipeline-Prod
                         ChangeSetName: tasker-ci-cd-pipeline-ChangeSet-Prod
-                        TemplatePath: BuildArtifactAsZip::packaged.yaml
+                        TemplatePath: BuildArtifactAsZip::packaged.yml
                         Capabilities: CAPABILITY_IAM
                       InputArtifacts:
                         - Name: BuildArtifactAsZip
